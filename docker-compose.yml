@@ -1,0 +1,9 @@
+version: '3.8' # Versión de Docker Compose
+
+services:
+  app:
+    build:
+      context: . # El contexto de construcción es el directorio actual
+      dockerfile: Dockerfile # Nombre del Dockerfile
+    ports:
+      - "8080:8080" # Mapea el puerto 8080 del contenedor al puerto 8080 del host

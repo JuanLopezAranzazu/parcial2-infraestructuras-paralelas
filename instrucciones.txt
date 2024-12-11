@@ -1,0 +1,24 @@
+
+Docker 
+
+Construir la imagen
+
+docker build -t nombre-de-tu-imagen .
+
+Levantar la imagen
+
+docker run -p 8080:8080 nombre-de-tu-imagen
+
+Ver las imagenes
+
+docker image ls
+
+Docker Compose
+
+docker-compose up --build
+
+docker-compose down
+
+App
+
+http://localhost:8080/user/
